@@ -64,9 +64,9 @@ def gerar_txt():
 # Criar janela principal
 janela = tk.Tk()
 janela.title("Excel → TXT")
-janela.geometry("300x150")
+janela.geometry("280x150")
 
-tk.Label(janela, text="Gerar TXT para importação").pack(pady=10)
+tk.Label(janela, text="Gerar TXT participantes").pack(pady=10)
 tk.Button(janela, text="Selecionar Planilha", command=gerar_txt).pack(pady=20)
 tk.Button(janela, text="Sair", command=janela.quit).pack()
 
